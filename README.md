@@ -61,3 +61,80 @@ int main() {
 
 	
 //Slide 26 (Profit or Loss)
+#include <iostream>
+using namespace std;
+
+void Display() {
+	int netPrice, salePrice, net;
+	cout << "Enter Purchase Price: "; cin >> netPrice;
+	cout << "Enter Sale Price: "; cin >> salePrice;
+	net = netPrice - salePrice;
+	if (net > 0) {
+		cout << "Profit of: " << net << endl;
+	}
+	else
+		cout << "Loss of: " << net << endl;
+}
+int main() {
+	
+	Display();
+
+	return 0;
+}	
+
+//Slide 27 (Name that Shape)
+#include <iostream>
+
+using namespace std;
+
+
+void Display() {
+	int numSides;
+	bool run = true;
+	while (run) {
+		cout << "Enter the numbers of sides: "; cin >> numSides;
+		system("cls");
+		if (numSides >= 3 && numSides <= 10) {
+			if (numSides == 3) {
+				cout << "it's a triangle" << endl;
+				run = false;
+			}
+			else if (numSides == 4) {
+				cout << "it's a square" << endl;
+				run = false;
+			}
+			else if (numSides == 5) {
+				cout << "it's a pentagon" << endl;
+				run = false;
+			}
+			else if (numSides == 6) {
+				cout << "it's a hexagon" << endl;
+				run = false;
+			}
+			else if (numSides == 7) {
+				cout << "it's a heptagon" << endl;
+				run = false;
+			}
+			else if (numSides == 8) {
+				cout << "it's a octagon" << endl;
+				run = false;
+			}
+			else if (numSides == 9) {
+				cout << "it's a nonagon" << endl;
+				run = false;
+			}
+			else if (numSides == 10) {
+				cout << "it's a decagon" << endl;
+				run = false;
+			}
+		}
+		else
+			cout << "Error. Please try again"  << endl;
+	}
+}
+
+
+int main() {
+	Display();
+	return 0;
+}
