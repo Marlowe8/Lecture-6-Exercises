@@ -1,9 +1,8 @@
 # Lecture-6-Exercises
 
-//Slide 24 (odd or even)
+**//Slide 24 (odd or even)**
 #include <iostream>
 using namespace std;
-
 
 bool Checker(int num) {	
 	bool check = false;
@@ -32,7 +31,7 @@ int main() {
 	return 0;
 }
   
-//Slide 25 (Number Checker)
+**//Slide 25 (Number Checker)**
 	#include <iostream>
 using namespace std;
 
@@ -60,7 +59,7 @@ int main() {
 }
 
 	
-//Slide 26 (Profit or Loss)
+**//Slide 26 (Profit or Loss)**
 #include <iostream>
 using namespace std;
 
@@ -82,7 +81,7 @@ int main() {
 	return 0;
 }	
 
-//Slide 27 (Name that Shape)
+**//Slide 27 (Name that Shape)**
 #include <iostream>
 
 using namespace std;
