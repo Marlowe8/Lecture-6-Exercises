@@ -32,4 +32,32 @@ int main() {
 	return 0;
 }
   
-  
+//Slide 25 (Number Checker)
+	#include <iostream>
+using namespace std;
+
+
+bool Checker(int num) {	
+	bool check = false;
+	if (num >= 0) {
+		check = true;
+	}
+	return check;
+}
+void NumChecker(int num) {
+
+	if (Checker(num)) {
+		cout << "the number is positive" << endl;
+	}
+	else
+		cout << "the number is negative" << endl;
+}
+int main() {
+	int num;
+	cout << "Enter a number: "; cin >> num;
+	NumChecker(num);
+	return 0;
+}
+
+	
+//Slide 26 (Profit or Loss)
